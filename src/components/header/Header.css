@@ -4,6 +4,11 @@ header{
     display: flex;
 }
 
+/* Activacion Color */
+li:active {
+    background-color: yellow;
+  }
+
 /* containerBrand */
 header .containerBrand{
     width: 20%;

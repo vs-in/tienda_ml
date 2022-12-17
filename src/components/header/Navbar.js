@@ -1,6 +1,7 @@
 import React from "react";
 import Brand from "./Brand";
 import ItemsListContainer from "./ItemsListContainer";
+import CartWidget from "./CartWidget";
 import "./Header.css";
 
 const Navbar = () => {
@@ -17,7 +18,9 @@ const Navbar = () => {
          itemCuatro = "Cables"
       />
       </nav>
-      <div className="containerCart"></div>
+      <div className="containerCart">
+        <CartWidget/>
+      </div>
     </header>
   );
 };

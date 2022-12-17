@@ -1,7 +1,10 @@
+/* colorTexto */
+
 :root{
-  --color-txt-nav: #bbb
+  --color-txt-nav: #000000
 }
 
+/* bodyHTML */
 
 body {
   margin: 0;
