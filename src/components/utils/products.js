@@ -34,7 +34,7 @@ const productos = [
 
   {
     id: 3,
-    title: "Termica Unipolar ABB Tubio",
+    title: "Termica Unipolar ABB",
     description:
       "Es popularmente conocida como llave térmica. Este dispositivo protege la instalación del recalentamiento de los cables (para evitar que se quemen) ante una sobrecarga. Cuando aumenta demasiado la corriente que circula por el circuito, este dispositivo se calienta y corta. A diferencia de los fusibles -que deben ser reemplazados tras un único uso-, la llave termomagnética puede ser reconectada",
     stock: 30,
@@ -51,7 +51,7 @@ const productos = [
   //Disyuntores
   {
     id: 4,
-    title: "Disyuntor Diferencial Bipolar Siemens",
+    title: "Disyuntor Siemens",
     description:
       "Es un dispositivo de conmutación que interrumpe la corriente anormal o de fallo. Es un dispositivo mecánico que interrumpe el flujo de la corriente de alta magnitud (de fallo) y además realiza la función de un interruptor. El disyuntor está diseñado principalmente para cerrar o abrir un circuito eléctrico, protegiendo así el sistema eléctrico de daños",
     stock: 6,
@@ -84,7 +84,7 @@ const productos = [
   //Contactores
   {
     id: 6,
-    title: "Contactor Montero Bobina 220V",
+    title: "Contactor Montero 220v",
     description:
       "El Contactor es un dispositivo eléctrico que puede cerrar o abrir circuitos en carga o en vacio en los que intervengan cargas de intensidad que pudieran producir algún efecto perjudicial para quien lo accione como por ejemplo en maniobras de apertura y cierre de instalaciones de motores",
     stock: 5,
@@ -98,7 +98,7 @@ const productos = [
 
   {
     id: 7,
-    title: "Contactor Montero Bobina 24V",
+    title: "Contactor Montero 24v",
     description:
       "El Contactor es un dispositivo eléctrico que puede cerrar o abrir circuitos en carga o en vacio en los que intervengan cargas de intensidad que pudieran producir algún efecto perjudicial para quien lo accione como por ejemplo en maniobras de apertura y cierre de instalaciones de motores",
     stock: 5,
@@ -113,7 +113,7 @@ const productos = [
   //Cables
   {
     id: 8,
-    title: "Cable Unipolar 2,5mm Treflicon",
+    title: "Cable Unipolar 2,5mm",
     description:
       "Se denomina cable monopolar o cable unipolar al cable que consta de un único hilo conductor. Con frecuencia los electricistas se suelen referir a este cable como “hilo de línea”. El cable unipolar se usa en los circuitos de interior. A la hora de comprar cable unipolar hay que tener en cuenta que está disponible en diferentes diámetros dependiendo de la intensidad de corriente y el tipo de instalación ",
     stock: 15,
@@ -141,7 +141,7 @@ const productos = [
 
   {
     id: 10,
-    title: "Cable Subterraneo Sintenac",
+    title: "Cable Subterraneo",
     description:
       "Cables diseñados para distribución de energía en baja tensión en edificios e instalaciones industriales, en tendidos subterráneos o sobre bandejas. Especialmente aptos para instalaciones en industrias donde se requiera amplia maniobrabilidad y seguridad ante la propagación de incendios.",
     stock: 15,

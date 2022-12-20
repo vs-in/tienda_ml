@@ -4,21 +4,22 @@ import "./cardItem.css";
 import Description from "../Description";
 import ButtonDetalles from "../Buttondetalles";
 import ButtonAddCart from "../ButtonAddCart";
-import ImgPrueba from "../../img/20221103_190546.jpg";
+
+
 const CardItem = (props) => {
   return <div className="cardItem">
     <Image
-      imagen={ImgPrueba}
+      imagen={props.imagen}
     />
-    <Description 
-      title="Termomagnetica Bipolar ABB Tubio"
-      cantidad ={5}
-      precio ={20000}
-    
+    <Description
+      title={props.title}
+      cantidad={props.cantidad}
+      precio={props.precio}
+
     />
     <div className="buttons">
-        <ButtonDetalles/>
-        <ButtonAddCart/>
+      <ButtonDetalles />
+      <ButtonAddCart />
     </div>
   </div>
 };

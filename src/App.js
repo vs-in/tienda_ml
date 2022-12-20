@@ -1,13 +1,13 @@
 import "./App.css";
 import Navbar from "./components/header/Navbar";
-import CardItem from "./components/items/CardItem/CardItem";
+import ContainerCardItems from "./components/items/ContainerCardItems/ContainerCardItems";
 
 
 function App() {
   return (
     <>
       <Navbar />
-      <CardItem />
+      <ContainerCardItems/>
 
     </>
   );

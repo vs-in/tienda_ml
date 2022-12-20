@@ -35,7 +35,7 @@
 }
 
 .cardDescription .title {
-    font-size: 21px;
+    font-size: 15px;
     margin: 6px 0;
 }
 
@@ -54,7 +54,7 @@
     color: #5b00fb;
     font-size: 40px;
     font-weight: bold;
-    margin: -5px 0;
+    margin: 6px 0;
 }
 
 /* contenedor de botones */
