@@ -2,7 +2,7 @@ import React from 'react'
 
 const ButtonDetalles = (props) => {
     return(
-        <button id="detalles">Ver detalles</button>
+        <button id="detalles">{props.txt}</button>
     )
 }
 
