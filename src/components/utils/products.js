@@ -105,7 +105,7 @@ const productos = [
     type: "contactores",
     imageProduct: {
       firtsImage:
-        "https://http2.mlstatic.com/D_NQ_NP_836693-MLA45005140103_022021-O.webp",
+        "https://http2.mlstatic.com/D_NQ_NP_922006-MLA46894726286_072021-O.webp",
     },
     price: 35000,
   },

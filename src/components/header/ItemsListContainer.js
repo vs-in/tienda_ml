@@ -1,15 +1,33 @@
-import React from 'react'
+import { Link } from "react-router-dom"
 
-
-const ItemsListContainer = (props) => {
+const ItemListContainer = (props) => {
   return (
     <ul>
-        <li>{props.itemUno}</li>
-        <li>{props.itemDos}</li>
-        <li>{props.itemTres}</li>
-        <li>{props.itemCuatro}</li>
+      <li>
+        <Link to="category/termicas">
+          {props.itemUno}
+        </Link>
+      </li>
+
+      <li>
+        <Link to="category/disyuntor">
+          {props.itemDos}
+        </Link>
+      </li>
+
+      <li>
+        <Link to="category/contactores">
+          {props.itemTres}
+        </Link>
+      </li>
+
+      <li>
+        <Link to="category/cables">
+          {props.itemCuatro}
+        </Link>
+      </li>
     </ul>
   )
 }
 
-export default ItemsListContainer;
+export default ItemListContainer;

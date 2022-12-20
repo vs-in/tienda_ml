@@ -6,6 +6,7 @@ import ButtonDetalles from "../Buttondetalles";
 import ButtonAddCart from "../ButtonAddCart";
 
 
+
 const CardItem = (props) => {
   return <div className="cardItem">
     <Image
@@ -15,7 +16,6 @@ const CardItem = (props) => {
       title={props.title}
       cantidad={props.cantidad}
       precio={props.precio}
-
     />
     <div className="buttons">
       <ButtonDetalles />

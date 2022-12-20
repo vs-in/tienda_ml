@@ -5,6 +5,7 @@
 }
 
 .cardItem {
+    background-color: whitesmoke;
     height: 460px;
     width: 290px;
     padding: 20px;
@@ -37,6 +38,8 @@
 .cardDescription .title {
     font-size: 15px;
     margin: 6px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .cardDescription .description {
@@ -44,17 +47,22 @@
 }
 
 .cardDescription .cant {
-    color: black;
+    color: #001500;
     font-size: 16px;
     margin: 6px 0;
+    display: flex;
+    justify-content: center;
+    
 
 }
 
 .cardDescription .precio {
-    color: #5b00fb;
+    color: #212022;
     font-size: 40px;
     font-weight: bold;
     margin: 6px 0;
+    display: flex;
+    justify-content: center;
 }
 
 /* contenedor de botones */
@@ -70,18 +78,18 @@
     height: 55px;
     width: 75%;
     border-radius: 50px;
-    background-color: #5b00fb;
+    background-color: #5c5b34;
     color: white;
     font-size: 20px;
     border: none;
 }
 
 .buttons #detalles:hover {
-    background-color: #4c00d1;
+    background-color: #c5cf63;
 }
 
 .buttons #addCart {
-    background-color: #5b00fb;
+    background-color: #5c5b34;
     height: 55px;
     width: 55px;
     border-radius: 50%;
@@ -97,5 +105,5 @@
 
 .buttons #detalleshover,
 .buttons #addCart:hover {
-    background-color: #4c00d1;
+    background-color: #c5cf63;
 }
